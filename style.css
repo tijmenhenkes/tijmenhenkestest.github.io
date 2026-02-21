@@ -19,7 +19,7 @@ body {
   line-height: 1.65;
   font-weight: 400;
 
-  color: #1A1A1A;
+  color: #1B1918;
   background-color: #FFFFFF;
 }
 
@@ -63,7 +63,7 @@ small {
  * Subtle academic accent color
  */
 a {
-  color: #1A4DB3; /* conservative academic blue */
+  color: #bc0031; /* UvA red */
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ ul.main-menu li a {
 }
 
 ul.main-menu li a.active {
-  border-bottom-color: #1A4DB3;
+  border-bottom-color: #bc0031;
   font-weight: 500;
 }
 
