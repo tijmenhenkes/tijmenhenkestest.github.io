@@ -69,7 +69,11 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+ul.main-menu li a:hover {
+  border-bottom-color: #bc0031;
 }
 
 /**
