@@ -46,21 +46,32 @@ h4 { font-size: 1.8rem; }
 h5 { font-size: 1.6rem; }
 h6 { font-size: 1.4rem; }
 
-.course-list {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 12px;
-}
-
-.course-list li {
+/* Red underline under university names */
+.teaching-entry h3 {
+  border-bottom: 2px solid #bc0031; /* deep red */
+  padding-bottom: 6px;
   margin-bottom: 12px;
 }
 
+/* Indent all entries under the university */
+.course-list {
+  list-style: none;
+  padding-left: 22px;  /* indent */
+  margin: 0;
+}
+
+/* Spacing between items */
+.course-list li {
+  margin: 0 0 14px 0;
+}
+
+/* Title line */
 .course-title {
   display: block;
   font-weight: 500;
 }
 
+/* Meta line */
 .course-meta {
   display: block;
   font-size: 0.9rem;
@@ -68,20 +79,16 @@ h6 { font-size: 1.4rem; }
   margin-top: 2px;
 }
 
-.award {
-  margin-top: 6px;
-  font-size: 0.9rem;
-}
-
-.award a {
+/* Award link: red + underlined by default so it looks clickable */
+.award-link {
   color: #bc0031;
-  text-decoration: none;
-}
-
-.award a:hover {
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
+.award-link:hover {
+  text-decoration-thickness: 2px;
+}
 /**
  * Text
  */
