@@ -46,10 +46,40 @@ h4 { font-size: 1.8rem; }
 h5 { font-size: 1.6rem; }
 h6 { font-size: 1.4rem; }
 
-.teaching-entry h3 {
-  border-bottom: 2px solid #bc0031; /* deep red */
-  padding-bottom: 4px;
-  margin-bottom: 10px;
+.course-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 12px;
+}
+
+.course-list li {
+  margin-bottom: 12px;
+}
+
+.course-title {
+  display: block;
+  font-weight: 500;
+}
+
+.course-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+.award {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+.award a {
+  color: #bc0031;
+  text-decoration: none;
+}
+
+.award a:hover {
+  text-decoration: underline;
 }
 
 /**
